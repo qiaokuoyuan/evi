@@ -19,6 +19,8 @@ pip install evi
 Evidence should be created before combination:
 
 ```python
+from evi import  Evi
+
 e1 = Evi(focal_elements=['a', 'b', ['a', 'c'], ], bpas=[0.2, 0.3, 0.5])
 ```
 
