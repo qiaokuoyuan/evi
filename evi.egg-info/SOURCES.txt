@@ -1,0 +1,6 @@
+README.md
+setup.py
+evi.egg-info/PKG-INFO
+evi.egg-info/SOURCES.txt
+evi.egg-info/dependency_links.txt
+evi.egg-info/top_level.txt
