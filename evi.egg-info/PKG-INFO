@@ -1,11 +1,11 @@
 Metadata-Version: 2.1
 Name: evi
-Version: 0.0.1
+Version: 0.0.2
 Summary: Implementation  of DS theory (D-S evidence theory)
 Home-page: https://github.com/qiaokuoyuan/evi
-Author: ken
+Author: qiaokuoyuan
 Author-email: 457361577@qq.com
-License: UNKNOWN
+License: BSD License
 Description: # Implementation of evidence theory (D-S theory)
         
         Evidence theory is an effective tool to make decision from ambiguity, which has been widely used in target recognition, decision making, optimization problem. Compared with ANN, combination result can be achieved without training process. Traditionally, weight of each evidence should be computed before obtaining a reasonable combination result [https://www.onacademic.com/detail/journal_1000040883012810_0724.html](https://www.onacademic.com/detail/journal_1000040883012810_0724.html), [https://www.onacademic.com/detail/journal_1000040419277410_af84.html](https://www.onacademic.com/detail/journal_1000040419277410_af84.html), [ A new conflict management method in Dempster–Shafer theory ](https://www.onacademic.com/detail/journal_1000039865751710_f512.html).
@@ -86,7 +86,7 @@ Description: # Implementation of evidence theory (D-S theory)
         
         
         
-Platform: UNKNOWN
+Platform: all
 Classifier: Programming Language :: Python :: 3
 Classifier: License :: OSI Approved :: MIT License
 Classifier: Operating System :: OS Independent

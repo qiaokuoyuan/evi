@@ -92,11 +92,4 @@ class Evi:
         return True
 
 
-if __name__ == "__main__":
-    e1 = Evi(focal_elements=['a', 'b', ['a', 'c'], ], bpas=[0.2, 0.3, 0.5])
-    e2 = Evi(focal_elements=['a', 'b', ['a', 'c'], ['b', 'c']], bpas=[0.4, 0.3, 0.1, .2])
-    combination_result = e1.combine(e2)
-    print(combination_result)
-
-    es = [e1, e2]
-    print(Evi.combine_list(e1, e2, ))
+__all__ = [Evi]
